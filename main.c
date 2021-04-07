@@ -1,4 +1,8 @@
-/* Testing out gcc on RPi
+/* 
+ * Author: Adam Chisolm
+ * File: main.c
+ * Description: Main driver for Conway's Game of Life. 
+ *
  */
 
 #include <stdio.h>
