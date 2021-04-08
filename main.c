@@ -17,7 +17,6 @@ int max_y, max_x;
 char* board2 = "Hello worldy";
 
 void init();
-void test();
 void set_board();
 void print_screen();
 
@@ -66,11 +65,6 @@ void update()
 		refresh();
 		sleep(1);
 	}
-}
-
-void test()
-{
-	mvprintw(0, 0, board2);
 }
 
 void set_board()
